@@ -128,12 +128,8 @@ del small_img           #will not use again
 
 
 
-# we got the coordinates
-# so crop then save to tiff
-
-#convert coordinates to level 0
-
-
+# we got the coordinates to crop!
+# so crop then save to the specified file format
 
 orig_img_size = slide_img.level_dimensions[0]           #get full resolution image size
 
